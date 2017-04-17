@@ -11,5 +11,14 @@ public class Coffee extends  Beverage {
         super("Coffee", description, price);
     }
 
+    @Override
+    public String toString() {
+        return "Coffee{" +
+                "name='" + getName() + '\'' +
+                ", description='" + getDescription() + '\'' +
+                ", price=" + getPrice() +
+                '}';
+    }
+
 
 }
