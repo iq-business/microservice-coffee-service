@@ -19,6 +19,4 @@ public class Coffee extends  Beverage {
                 ", price=" + getPrice() +
                 '}';
     }
-
-
 }
