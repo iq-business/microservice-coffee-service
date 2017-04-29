@@ -26,5 +26,5 @@ A microservice based coffee vending application in the Death Star Canteen.
   java -jar .\target\coffee-microservice-1.0.0.jar --service.registry.enabled=true --service.registry.baseUrl=http://localhost:9090 --coffee.service.baseUrl=http://localhost:9292
 ```
 - ```--service.registry.enabled=true```        - True: enables service registration on startup
-- ```--service.registry.baseUrl={host:port}``` - To set base url of Registry Service / API Gateway
-- ```--coffee.service.baseUrl={host:port}```   - To set base url of this 'Coffee microservice' instance to be used for service registration.
+- ```--service.registry.baseUrl=http://{host}:{port}``` - To set base url of Registry Service / API Gateway
+- ```--coffee.service.baseUrl=http://{host}:{port}```   - To set base url of this 'Coffee microservice' instance to be used for service registration.
